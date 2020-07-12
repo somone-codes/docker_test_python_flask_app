@@ -1,0 +1,16 @@
+{
+    "python.pythonPath": "venv\\Scripts\\python.exe",
+    "vsintellicode.features.python.deepLearning": "enabled",
+    "python.pipenvPath": "venv\\Scripts\\pip3.exe",
+    "python.disableInstallationCheck":false,
+    "python.globalModuleInstallation":false,
+    "python.terminal.activateEnvironment":true,
+    "python.terminal.activateEnvInCurrentTerminal":true,
+    "python.logging.level": "debug",
+    "python.linting.enabled": true,
+    "python.linting.lintOnSave": true,
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pydocstyleEnabled": true,
+    "python.linting.pytestEnabled": true,
+    "python.languageServer": "Microsoft",
+}
