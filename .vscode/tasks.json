@@ -20,7 +20,7 @@
 			],
 			"dockerRun": {
 				"env": {
-					"FLASK_APP": "app.py"
+					"FLASK_APP": "vs_flask_example_app/webapp.py"
 				}
 			},
 			"python": {

@@ -1,11 +1,10 @@
 import logging
-import random
-import re
 from datetime import datetime
+from random import random
 
-from flask import Flask, render_template
+from flask import render_template
 
-app = Flask(__name__)
+from . import app
 
 # list of random gifs
 images = [
@@ -49,6 +48,3 @@ def hello_there(name = None):
 def get_data():
     logging.info("")
     return app.send_static_file("data.json")
-
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)

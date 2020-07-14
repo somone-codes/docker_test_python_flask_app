@@ -1,7 +1,4 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
@@ -10,7 +7,7 @@
             "request": "launch",
             "module": "flask",
             "env": {
-                "FLASK_APP": "app.py",
+                "FLASK_APP": "vs_flask_example_app.webapp",
                 "FLASK_ENV": "development"
             },
             "args": [
@@ -26,7 +23,7 @@
             "request": "launch",
             "module": "flask",
             "env": {
-                "FLASK_APP": "app.py",
+                "FLASK_APP": "vs_flask_example_app.webapp",
                 "FLASK_ENV": "development",
                 "FLASK_DEBUG": "1"
             },
