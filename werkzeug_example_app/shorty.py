@@ -110,7 +110,7 @@ def create_app(host='localhost', port=6379, db=2, with_static=True):
 
 if __name__ == '__main__':
     from werkzeug.serving import run_simple
+    from . import app
 
-    app = create_app()
     run_simple(hostname='127.0.0.1', port=8000, application=app, use_debugger=False, static_files=False,
                use_reloader=False)
